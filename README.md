@@ -1,4 +1,4 @@
-Kbimg-Uploader
+KBimg-Uploader
 ==============
 
-Kbimg Uploader
+KBimg Uploader
