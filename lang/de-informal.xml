@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+<language languagecode="de-informal">
+	<category name="wcf.upload.kbimgupload">
+		<item name="wcf.upload.kbimgupload.title"><![CDATA[KBImg-Upload]]></item>
+		<item name="wcf.upload.kbimgupload.info"><![CDATA[]]></item>
+		<item name="wcf.upload.kbimgupload.notice"><![CDATA[Bitte beachten Sie, dass es zur Darstellungsfehler kommen kann!]]></item>
+		<item name="wcf.upload.kbimgupload.noFrames"><![CDATA[Ihr Browser unterstuetzt keine IFrames. Bitte aktualisieren Sie Ihren Browser.]]></item>
+	</category>
+	
+	<category name="wcf.acp.group">		
+		<item name="wcf.acp.group.option.category.user.message.kbimgupload"><![CDATA[KBImg Upload]]></item>
+		<item name="wcf.acp.group.option.category.user.message.kbimgupload.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.user.message.kbimgupload.canUse"><![CDATA[Kann KBImg Upload benutzen]]></item>
+		<item name="wcf.acp.group.option.user.message.kbimgupload.canUse.description"><![CDATA[Mitglieder dieser Gruppe koennen Bilder auf kbimg.de hochladen über den WYSIWYG-Editor.]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.kbimgupload_moduleActivation"><![CDATA[KBImg Upload]]></item>
+		<item name="wcf.acp.option.kbimgupload_moduleActivation.description"><![CDATA[Aktiveren Sie KBImg Upload für den WYSIWYG-Editor.]]></item>
+	</category>
+</language>

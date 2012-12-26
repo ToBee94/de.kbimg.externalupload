@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE import SYSTEM "DTD/import.dtd">
+
+<data>
+	<import>
+		<eventlistener>
+  			<eventClassName>MessageForm</eventClassName>
+			<eventName>assignVariables</eventName>
+			<listenerClassFile>lib/system/event/listener/KbImgUploadListener.class.php</listenerClassFile>
+           	<inherit>1</inherit>
+		</eventlistener>	
+	</import>
+</data>
