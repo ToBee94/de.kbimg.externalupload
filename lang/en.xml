@@ -2,21 +2,21 @@
 <!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
 <language languagecode="en">
 	<category name="wcf.upload.kbimgupload">
-		<item name="wcf.upload.kbimgupload.title"><![CDATA[KBImg-Upload]]></item>
+		<item name="wcf.upload.kbimgupload.title"><![CDATA[KBimg-Upload]]></item>
 		<item name="wcf.upload.kbimgupload.info"><![CDATA[]]></item>
-		<item name="wcf.upload.kbimgupload.notice"><![CDATA[Bitte beachten Sie, dass es zur Darstellungsfehler kommen kann!]]></item>
-		<item name="wcf.upload.kbimgupload.noFrames"><![CDATA[Ihr Browser unterstuetzt keine IFrames. Bitte aktualisieren Sie Ihren Browser.]]></item>
+		<item name="wcf.upload.kbimgupload.notice"><![CDATA[Please notice, that design bugs could be possible.]]></item>
+		<item name="wcf.upload.kbimgupload.noFrames"><![CDATA[Your browser doesn't support iFrames. Please update your Browser.]]></item>
 	</category>
 	
 	<category name="wcf.acp.group">		
-		<item name="wcf.acp.group.option.category.user.message.kbimgupload"><![CDATA[KBImg Upload]]></item>
+		<item name="wcf.acp.group.option.category.user.message.kbimgupload"><![CDATA[KBimg-Upload]]></item>
 		<item name="wcf.acp.group.option.category.user.message.kbimgupload.description"><![CDATA[]]></item>
-		<item name="wcf.acp.group.option.user.message.kbimgupload.canUse"><![CDATA[Kann KBImg Upload benutzen]]></item>
-		<item name="wcf.acp.group.option.user.message.kbimgupload.canUse.description"><![CDATA[Mitglieder dieser Gruppe koennen Bilder auf kbimg.de hochladen über den WYSIWYG-Editor.]]></item>
+		<item name="wcf.acp.group.option.user.message.kbimgupload.canUse"><![CDATA[Can use KBimg-Upload]]></item>
+		<item name="wcf.acp.group.option.user.message.kbimgupload.canUse.description"><![CDATA[Members of this user group can directly upload images through the WYSIWYG editor to KBimg.de.]]></item>
 	</category>
 	
 	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.kbimgupload_moduleActivation"><![CDATA[KBImg Upload]]></item>
-		<item name="wcf.acp.option.kbimgupload_moduleActivation.description"><![CDATA[Aktiveren Sie KBImg Upload für den WYSIWYG-Editor.]]></item>
+		<item name="wcf.acp.option.kbimgupload_moduleActivation"><![CDATA[KBimg-Upload]]></item>
+		<item name="wcf.acp.option.kbimgupload_moduleActivation.description"><![CDATA[Activates the KBimg - External Upload for the WYSIWYG editor.]]></item>
 	</category>
 </language>
