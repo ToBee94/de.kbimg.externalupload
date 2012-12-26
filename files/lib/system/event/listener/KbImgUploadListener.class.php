@@ -9,19 +9,6 @@ require_once (WCF_DIR . 'lib/system/event/EventListener.class.php');
  * @package		de.kbimg.externalupload
  */
 class KbImgUploadListener implements EventListener {
-	
-	/**
-	 * @var string
-	 */
-	protected $template = 'kbimgUpload';
-	
-	/**
-	 * @var string
-	 */
-
-	/**
-	 * @see EventListener::execute()
-	 */
 	public function execute($eventObj, $className, $eventName) {
 		if(!MODULE_KBIMG_UPLOAD) return;
 		if(!WCF::getUser()->getPermission('user.message.kbimgupload.canUse')) return;
@@ -33,7 +20,7 @@ class KbImgUploadListener implements EventListener {
 		
 		WCF::getTPL()->append(array(
 			'additionalTabs' => $tabCode,
-			'additionalSubTabs' => WCF::getTPL()->fetch($this->template)
+			'additionalSubTabs' => WCF::getTPL()->fetch('kbimgUpload')
 		));
 	}
 }
