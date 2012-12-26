@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
-<language languagecode="de">
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/language.xsd" languagecode="de">
 	<category name="wcf.upload.kbimgupload">
 		<item name="wcf.upload.kbimgupload.title"><![CDATA[KBimg-Upload]]></item>
 		<item name="wcf.upload.kbimgupload.info"><![CDATA[]]></item>
