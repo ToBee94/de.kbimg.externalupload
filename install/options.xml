@@ -2,7 +2,7 @@
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/options.xsd">
   <import>
     <options>
-      <option name="kbimgupload_moduleActivation">
+      <option name="module_kbimg_upload">
         <categoryname>module.user</categoryname>
         <optiontype>boolean</optiontype>
         <defaultvalue><![CDATA[1]]></defaultvalue>
