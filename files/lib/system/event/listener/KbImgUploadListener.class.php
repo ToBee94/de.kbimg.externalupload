@@ -18,7 +18,6 @@ class KbImgUploadListener implements EventListener {
 	/**
 	 * @var string
 	 */
-	protected $permissions = 'user.message.kbimgupload.canUse';
 
 	/**
 	 * @see EventListener::execute()
@@ -36,7 +35,6 @@ class KbImgUploadListener implements EventListener {
 			'additionalTabs' => $tabCode,
 			'additionalSubTabs' => WCF::getTPL()->fetch($this->template)
 		));
-	
 	}
 }
 ?>
