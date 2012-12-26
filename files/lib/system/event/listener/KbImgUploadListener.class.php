@@ -24,8 +24,8 @@ class KbImgUploadListener implements EventListener {
 	 * @see EventListener::execute()
 	 */
 	public function execute($eventObj, $className, $eventName) {
-		if(!KBIMGUPLOAD_MODULEACTIVATION) return;
-		if(!WCF::getUser()->getPermission($this->permissions)) return;
+		if(!MODULE_KBIMG_UPLOAD) return;
+		if(!WCF::getUser()->getPermission('user.message.kbimgupload.canUse')) return;
 		
 		$tabCode = '<li id="kbimgUploadTab">';
 		$tabCode .= '<a onclick="tabbedPane.openTab(\'kbimgUpload\');">';
@@ -33,7 +33,6 @@ class KbImgUploadListener implements EventListener {
 		$tabCode .= '</a></li>';
 		
 		WCF::getTPL()->append(array(
-			
 			'additionalTabs' => $tabCode,
 			'additionalSubTabs' => WCF::getTPL()->fetch($this->template)
 		));
