@@ -3,17 +3,17 @@
 require_once (WCF_DIR . 'lib/system/event/EventListener.class.php');
 
 /** 
- * @author 	Tobias Vorwachs
+ * @author 		Tobias Vorwachs
  * @copyright 	2012 Tobias Vorwachs
- * @license	LGPL
- * @package	de.kbimg.uploader
+ * @license		LGPL
+ * @package		de.kbimg.externalupload
  */
 class KbImgUploadListener implements EventListener {
 	
 	/**
 	 * @var string
 	 */
-	protected $template = 'kbimgupload';
+	protected $template = 'kbimgUpload';
 	
 	/**
 	 * @var string
@@ -27,8 +27,8 @@ class KbImgUploadListener implements EventListener {
 		if(!KBIMGUPLOAD_MODULEACTIVATION) return;
 		if(!WCF::getUser()->getPermission($this->permissions)) return;
 		
-		$tabCode = '<li id="kbimguploadTab">';
-		$tabCode .= '<a onclick="tabbedPane.openTab(\'kbimgupload\');">';
+		$tabCode = '<li id="kbimgUploadTab">';
+		$tabCode .= '<a onclick="tabbedPane.openTab(\'kbimgUpload\');">';
 		$tabCode .= '<span>' . WCF::getLanguage()->get('wcf.upload.kbimgupload.title') . '</span>';
 		$tabCode .= '</a></li>';
 		
