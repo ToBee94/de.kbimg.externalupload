@@ -2,7 +2,7 @@
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/language.xsd" languagecode="de-informal">
 	<category name="wcf.upload.kbimgupload">
 		<item name="wcf.upload.kbimgupload.title"><![CDATA[KBimg-Upload]]></item>
-		<item name="wcf.upload.kbimgupload.info"><![CDATA[]]></item>
+		<item name="wcf.upload.kbimgupload.info"><![CDATA[Bilder, die gegen deutsches oder ein anderes Recht verstoßen, werden sofort gelöscht. Für die Bilder ist allein der Benutzer verantwortlich, der sie hochlädt. Mit dem Absenden dieses Formulars erklärst du dich damit einverstanden und übernimmst die Haftung für von dir hochgeladenen Bildern.]]></item>
 		<item name="wcf.upload.kbimgupload.notice"><![CDATA[Bitte beachte, dass es zu Darstellungsfehlern kommen kann.]]></item>
 		<item name="wcf.upload.kbimgupload.noFrames"><![CDATA[Dein Browser unterstützt keine iFrames. Bitte aktualisiere deinen Browser.]]></item>
 	</category>
