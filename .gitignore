@@ -1,0 +1,21 @@
+# Linux
+# backup files
+*~
+
+# Windows
+# thumbnails
+Thumbs.db
+# batch
+*.bat
+
+# Mac OS X
+# metadata
+.DS_Store
+# thumbnails
+._*
+
+# Eclipse
+.settings/
+.buildpath
+.classpath
+.project
