@@ -21,13 +21,16 @@
 	</requiredpackages>
 	
 	<instructions type="install">
+		<!-- files -->
 		<files>files.tar</files>
 		<templates>templates.tar</templates>
 		
-   		<eventlistener>install/eventlistener.xml</eventlistener>
-		<groupoptions>install/groupoptions.xml</groupoptions>
-		<options>install/options.xml</options>
+		<!-- config -->
+   		<eventlistener>eventlistener.xml</eventlistener>
+		<groupoptions>groupoptions.xml</groupoptions>
+		<options>options.xml</options>
    		
+   		<!-- language -->
 		<languages languagecode="de">lang/de.xml</languages>
 		<languages languagecode="de-informal">lang/de-informal.xml</languages>
 		<languages languagecode="en">lang/en.xml</languages>
