@@ -15,7 +15,7 @@
 	</category>
 	
 	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.kbimgupload_moduleActivation"><![CDATA[KBimg-Upload]]></item>
-		<item name="wcf.acp.option.kbimgupload_moduleActivation.description"><![CDATA[Aktivieren Sie KBimg - Externer Upload für den WYSIWYG-Editor.]]></item>
+		<item name="wcf.acp.option.module_kbimg_upload"><![CDATA[KBimg-Upload]]></item>
+		<item name="wcf.acp.option.module_kbimg_upload.description"><![CDATA[Aktivieren Sie KBimg - Externer Upload für den WYSIWYG-Editor.]]></item>
 	</category>
 </language>
