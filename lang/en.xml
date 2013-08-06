@@ -4,7 +4,7 @@
 		<item name="wcf.upload.kbimgupload.title"><![CDATA[KBimg-Upload]]></item>
 		<item name="wcf.upload.kbimgupload.info"><![CDATA[Picutres, which are in breach with German or another right will be deleted. The user is in charge for his uploaded pictures. If you submit this formular, you agree these terms and are liable for your uploaded pictures.]]></item>
 		<item name="wcf.upload.kbimgupload.notice"><![CDATA[Please notice, that design bugs could be possible.]]></item>
-		<item name="wcf.upload.kbimgupload.noFrames"><![CDATA[Your browser doesn't support iFrames. Please update your Browser.]]></item>
+		<item name="wcf.upload.kbimgupload.noObjects"><![CDATA[Your browser doesn't support iFrames. Please update your Browser.]]></item>
 	</category>
 	
 	<category name="wcf.acp.group">		
