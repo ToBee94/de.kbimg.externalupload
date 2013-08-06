@@ -4,8 +4,8 @@
 		<packagename>KBimg - External Upload</packagename>
 		<packagedescription>This plugin adds an upload field for the pichoster kbimg.de to your WYSIWYG editor.</packagedescription>
 		<isunique>1</isunique>
-		<version>1.0.0 pl 1</version>
-		<date>2012-12-28</date>
+		<version>1.0.1</version>
+		<date>2013-08-06</date>
 		<plugin>com.woltlab.wcf.form.message</plugin>
 	</packageinformation>
 	
