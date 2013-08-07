@@ -4,16 +4,16 @@
 		<item name="wcf.upload.kbimgupload.title"><![CDATA[KBimg-Upload]]></item>
 		<item name="wcf.upload.kbimgupload.info"><![CDATA[Picutres, which are in breach with German or another right will be deleted. The user is in charge for his uploaded pictures. If you submit this formular, you agree these terms and are liable for your uploaded pictures.]]></item>
 		<item name="wcf.upload.kbimgupload.notice"><![CDATA[Please notice, that design bugs could be possible.]]></item>
-		<item name="wcf.upload.kbimgupload.noObjects"><![CDATA[Your browser doesn't support iFrames. Please update your Browser.]]></item>
+		<item name="wcf.upload.kbimgupload.noObjects"><![CDATA[Your browser doesn't support objects. Please update your Browser.]]></item>
 	</category>
-	
-	<category name="wcf.acp.group">		
+
+	<category name="wcf.acp.group">
 		<item name="wcf.acp.group.option.category.user.message.kbimgupload"><![CDATA[KBimg-Upload]]></item>
 		<item name="wcf.acp.group.option.category.user.message.kbimgupload.description"><![CDATA[]]></item>
 		<item name="wcf.acp.group.option.user.message.kbimgupload.canUse"><![CDATA[Can use KBimg-Upload]]></item>
 		<item name="wcf.acp.group.option.user.message.kbimgupload.canUse.description"><![CDATA[Members of this user group can directly upload images through the WYSIWYG editor to KBimg.de.]]></item>
 	</category>
-	
+
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.module_kbimg_upload"><![CDATA[KBimg-Upload]]></item>
 		<item name="wcf.acp.option.module_kbimg_upload.description"><![CDATA[Activates the KBimg - External Upload for the WYSIWYG editor.]]></item>

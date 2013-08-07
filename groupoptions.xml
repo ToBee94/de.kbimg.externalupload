@@ -6,8 +6,8 @@
 		  		<parent>user.message</parent>
 			</category>
 		</categories>
-		
-		<options>	
+
+		<options>
 			<option name="user.message.kbimgupload.canUse">
 				<categoryname>user.message.kbimgupload</categoryname>
 				<optiontype>boolean</optiontype>

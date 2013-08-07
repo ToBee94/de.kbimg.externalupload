@@ -6,6 +6,6 @@
 			<eventName>assignVariables</eventName>
 			<listenerClassFile>lib/system/event/listener/KbImgUploadListener.class.php</listenerClassFile>
            		<inherit>1</inherit>
-		</eventlistener>	
+		</eventlistener>
 	</import>
 </data>
